@@ -1,0 +1,294 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+		<title>Bootstrap tutorial</title>
+
+		<!--Bootstrap 4 CSS-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+		<!--Bootstrap 4 JS-->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+		<!--Icon-->
+		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+		<!--External Stylesheet-->
+		<link href="style.css" rel="stylesheet">
+
+	</head>
+
+	<body>
+
+		<!--Navigation Bar-->
+		<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#"><img src="image/pict_logo.png"></a>
+				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Team</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Connect</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!--Image Slider-->
+		<div id="slides" class="carousel slide" data-ride="carousel">
+			<ul class="carousel-indicators">
+				<li data-target="#slides" data-slide-to="0" class="active"></li>
+				<li data-target="#slides" data-slide-to="1"></li>
+				<li data-target="#slides" data-slide-to="2"></li>
+			</ul>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="image/fullbackground.png">
+					<div class="carousel-caption">
+						<h1 class="display-2">Beach Club</h1>
+						<h3>Good Vibes</h3>
+						<button type="button" class="btn btn-outline-light btn-lg">VIEW DEMO</button>
+						<button type="button" class="btn btn-primary light btn-lg">Get Started</button>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="image/fullbackground.png">
+				</div>
+				<div class="carousel-item">
+					<img src="image/fullbackground.png">
+				</div>
+			</div>
+		</div>
+
+		<!--Jumbotron-->
+		<div class="container-fluid">
+			<div class="row jumbotron">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-10">
+					<p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-2">
+					<a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Web Hosting</button></a>
+				</div>
+			</div>
+		</div>
+
+		<!--Welcome-->
+		<div class="container-fluid padding">
+			<div class="row welcome text-center">
+				<div class="col-12">
+					<h1 class="display-4">Built with love</h1>
+				</div>
+				<hr>
+				<div class="col-12">
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+			<div>
+				<hr class="my-4">
+			</div>
+		</div>
+
+		<!--Three Column Section-->
+		<div class="container-fluid padding">
+			<div class="row text-center padding">
+				<div class="col-xs-12 col-sm-6 col-md-4">
+					<i class="fas fa-code"></i>
+					<h3>Part 1</h3>
+					<p>At vero eos et accusamus et iusto odio dignissimos ducimus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4">
+					<i class="fas fa-bold"></i>
+					<h3>Part 2</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut labore et dolore magna aliqua. Ut enim ad minim veni.</p>
+				</div>
+				<div class="col-sm-12 col-md-4">
+					<i class="fab fa-css3"></i>
+					<h3>Part 3</h3>
+					<p>Ut labore et dolore magna aliqua. Ut enim ad minim veni.At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<hr class="my-4">
+		</div>
+
+		<!--Two Column Section-->
+		<div class="container-fluid padding">
+			<div class="row padding">
+				<div class="col-12">
+					<h2>Say Something cool!</h2>
+				</div>
+				<div class="col-lg-9">
+					<p>At vero eos et accusamus et iusto odio dignissimos ducimus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut labore et dolore magna aliqua. Ut enim ad minim veni.Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+					<p>Ut labore et dolore magna aliqua. Ut enim ad minim veni.At vero eos et accusamus et iusto odio dignissimos ducimus.Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+					<br>
+					<a href="#" class="btn btn-primary">Learn More</a>
+				</div>
+				<div class="col-lg-3">
+					<img src="image/nice.png" class="img-fluid">
+				</div>
+			</div>
+		</div>
+
+		<hr class="my-4">
+		<!--Fixed Background>
+		<div class="fixed-wrap">
+			<figure>
+					<div id="fixed">
+						<img src="image/lagoon.png">
+					</div>
+			</figure>
+		</div-->
+
+		<!--Meet the team display-->
+		<div class="container-fluid padding">
+			<div class="row welcome text-center">
+				<div class="col-12">
+					<h1 class="display-4">Meet the team</h1>
+				</div>
+			</div>
+		</div>
+
+
+		<!--Cards-->
+		<div class="container-fluid padding">
+			<div class="row padding">
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" src="image/team1.jpg">
+						<div class="card-body">
+							<h4 card="card-title">Written By</h4>
+							<h5 card="card-title">Apoorv Dixit</h5>
+							<p class="card-text">Apoorv is a web developer who is currently pursuing his bachelors in Computer Engineering from Pune Institute of Computer Technology.</p>
+							<a href="https://www.linkedin.com/in/apoorvdixit1999/" class="btn btn-outline-secondary">See Profile</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" src="image/team1.jpg">
+						<div class="card-body">
+							<h4 card="card-title">Directed By</h4>
+							<h5 card="card-title">Apoorv Dixit</h5>
+							<p class="card-text">Apoorv is a web developer who is currently pursuing his bachelors in Computer Engineering from Pune Institute of Computer Technology.</p>
+							<a href="https://www.linkedin.com/in/apoorvdixit1999/" class="btn btn-outline-secondary">See Profile</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" src="image/team1.jpg">
+						<div class="card-body">
+							<h4 card="card-title">Produced By</h4>
+							<h5 card="card-title">Apoorv Dixit</h5>
+							<p class="card-text">Apoorv is a web developer who is currently pursuing his bachelors in Computer Engineering from Pune Institute of Computer Technology.</p>
+							<a href="https://www.linkedin.com/in/apoorvdixit1999/" class="btn btn-outline-secondary">See Profile</a>
+						</div>
+					</div>
+				</div>
+				<hr>
+			</div>
+		</div>
+
+
+		<!--Two Column Section-->
+		<div class="container-fluid padding">
+			<div class="row padding">
+				<div class="col-12">
+					<h2>Our Philosophy</h2>
+				</div>
+				<div class="col-lg-6 col-xl-9">
+					<p>At vero eos et accusamus et iusto odio dignissimos ducimus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut labore et dolore magna aliqua. Ut enim ad minim veni.Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+					<br>
+				</div>
+				<div class="col-lg-6 col-xl-3">
+					<img src="image/core.png" class="img-fluid">
+				</div>
+			</div>
+			<hr class="my-4">
+		</div>
+
+
+		<!--Connect-->
+		<div class="container-fluid padding">
+			<div class="row text-center padding">
+				<div class="col-12">
+					<h2>Connect</h2>
+				</div>
+				<div class="col-12 social padding">
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-google-plus-g"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+				</div>
+			</div>
+		</div>
+
+
+		<!--Footer-->
+		<footer>
+			<div class="container-fluid padding">
+				<div class="row text-center">
+					<div class="col-md-4">
+						<hr class="light">
+						<h5>Contact Details</h5>
+						<hr class="light">
+						<p>+91 90286 10141</p>
+						<p>apoorvdixit619@gmail.com</p>
+						<p>Pune Institute of Computer Technology</p>
+						<p>Pune, Maharashtra - 411037.</p>
+					</div>
+					<div class="col-md-4">
+						<hr class="light">
+						<h5>Office Hours</h5>
+						<hr class="light">
+						<p>Mon to Fri : 11am - 5pm </p>
+						<p>Sat : 12am - 3pm </p>
+						<p>Sun : Closed </p>
+					</div>
+					<div class="col-md-4">
+						<hr class="light">
+						<h5>Service Areas</h5>
+						<hr class="light">
+						<p>Mr. Worldwide</p>
+						<p>Uno Dos Tres Quattro</p>
+						<p>Dale</p>
+						<p>To the Mysterio fans..</p>
+					</div>
+					<div class="col-12">
+						<hr class="light">
+						<h5>&copy; Apoorv Dixit</h5>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+	</body>
+
+</html>
